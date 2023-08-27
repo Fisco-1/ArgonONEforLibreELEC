@@ -10,8 +10,8 @@ Prerequisites:
   1. Raspberri Pi 4.
   2. LibreELEC installed and running.
   3. Two addons installed from the LibreELEC repository in the Program Addons section:
-      a) System tools
-      b) Raspberry Pi Tools
+      - System tools
+      - Raspberry Pi Tools
 
 Instructions:
   1. Enable SSH and SAMBA services (Setup > LibreELEC > Services)
