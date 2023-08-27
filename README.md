@@ -15,10 +15,11 @@ Prerequisites:
 
 Instructions:
   1. Enable SSH and SAMBA services (Setup > LibreELEC > Services)
-  2. Upload script to any directory of th Pi (I use /storage/.kodi/userdata/ArgonONE/ that is accesible through the samba server in the folder Userdata)
-  3. Open a ssh terminal to the PI and run the script.
+  2. Download script file argonone-install-libreelec.sh 
+  3. Upload script file to any directory in the Pi (I use /storage/.kodi/userdata/ArgonONE/ that is accesible through the samba server in the folder \\sarver>\Userdata)
+  4. Open a ssh terminal to the PI and run the script.
 
 Notes:
   1. You can configure the fan set points in file /storage/.config/argonone.d/argononed.conf (Samba file: \\<server>\Configfiles\argonone.d\argononed.conf)
-  2. My case doen's generate the signal for the shutdown (pressing power button 3 to 4 seconds) so I have changed the double click action to shutdown (no reboot using the case button)
+  2. My Argon ONE V2 case does not generate the signal for the shutdown (pressing power button 3 to 4 seconds) so I have changed the double click action to shutdown (so there is no reboot posibility using the case button)
   3. As You can see, I spend my time coding, no writing nice readmes. Also, wrinting english is an effort to me. If you want to rewrite this readme, You will be welcomed.
