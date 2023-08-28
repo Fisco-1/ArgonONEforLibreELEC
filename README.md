@@ -16,7 +16,7 @@ Prerequisites:
 Instructions:
   1. Enable SSH and SAMBA services (Setup > LibreELEC > Services)
   2. Download script file argonone-install-libreelec.sh 
-  3. Upload script file to any directory in the Pi (I use /storage/.kodi/userdata/ArgonONE/ that is accesible through the samba server in the folder \\sarver>\Userdata)
+  3. Upload script file to any directory in the Pi (I use /storage/.kodi/userdata/ArgonONE/ that is accesible through the samba server in the folder \\<server>\Userdata)
   4. Open a ssh terminal to the PI and run the script.
 
 Notes:
